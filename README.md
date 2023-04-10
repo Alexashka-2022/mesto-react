@@ -15,4 +15,4 @@
 8. Работа с API
 
 ## Адрес проекта на GitHubPages
-(пока не заполнен)
+https://alexashka-2022.github.io/mesto-react/index.html
