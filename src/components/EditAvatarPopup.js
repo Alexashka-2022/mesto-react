@@ -10,8 +10,6 @@ function EditAvatarPopup(props) {
     props.onUpdateAvatar({
       avatar: inputRef.current.value,
     });
-
-    props.onClose();
   }
 
   return (
@@ -26,8 +24,12 @@ function EditAvatarPopup(props) {
       buttonText='Сохранить'
       onSubmit={handleSubmit}
     >
-      <input className="popup__input popup__input_avatar" type="url" id="avatar-link" name="avatar-link"
-        placeholder="Ссылка на фото" ref={inputRef} required />
+      <input className="popup__input popup__input_avatar"
+       type="url"
+       id="avatar-link"
+       name="avatar-link"
+       placeholder="Ссылка на фото"
+       ref={inputRef} required />
       <span className="popup__error" id="avatar-link-error"></span>
     </PopupWithForm>
   );

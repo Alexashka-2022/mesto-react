@@ -28,8 +28,6 @@ function EditProfilePopup(props) {
             name,
             about: description,
         });
-        props.onClose();
-
     }
 
     return (
@@ -44,11 +42,25 @@ function EditProfilePopup(props) {
             showStatusText='Сохранение...'
             buttonText='Сохранить'
         >
-            <input className="popup__input popup__input_name" type="text" id="user" name="userName" placeholder="Имя"
-                minLength="2" maxLength="40" value={name || ""} onChange={handleChangeName} required />
+            <input className="popup__input popup__input_name"
+             type="text"
+             id="user"
+             name="userName"
+             placeholder="Имя"
+             minLength="2"
+             maxLength="40"
+             value={name || ""}
+             onChange={handleChangeName} required />
             <span className="popup__error" id="user-error"></span>
-            <input className="popup__input popup__input_specialization" type="text" id="specialization" name="userData"
-                placeholder="Специальность" minLength="2" maxLength="200" value={description || ""} onChange={handleChangeDescription} required />
+            <input className="popup__input popup__input_specialization"
+             type="text"
+             id="specialization"
+             name="userData"
+             placeholder="Специальность"
+             minLength="2"
+             maxLength="200"
+             value={description || ""}
+             onChange={handleChangeDescription} required />
             <span className="popup__error" id="specialization-error"></span>
         </PopupWithForm>
     );

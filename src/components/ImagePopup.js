@@ -1,6 +1,6 @@
 function ImagePopup(props) {
     return (
-        <div className={`popup popup_${props.name} ${props.isOpen ? "popup_opened" : ""}`} onMouseDown={props.onCloseByOverlay}>
+        <div className={`popup popup_scale ${props.isOpen ? "popup_opened" : ""}`} onMouseDown={props.onCloseByOverlay}>
             <div className="popup__container-big">
                 <button className="popup__closed popup__closed-image" type="button" onClick={props.onClose}></button>
                 <figure className="popup__image-wrapper">
