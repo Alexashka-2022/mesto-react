@@ -1,7 +1,7 @@
 # Проект "Место"(React)
 
 ## Интро
-Проектная работа №10 - предыдущий проект "Место" (https://alexashka-2022.github.io/mesto/index.html), реализованный с использованием create-react-app.
+Проектная работа №10,11 - это предыдущий проект "Место" (https://alexashka-2022.github.io/mesto/index.html), реализованный с использованием create-react-app.
 Проект представляет из себя сервис для хранения фотографий.
 
 ### Для проекта были использованы 
@@ -13,6 +13,7 @@
 6. BEM Nested
 7. React.js
 8. Работа с API
+9. Работа с хуками
 
 ## Адрес проекта на GitHubPages
 https://alexashka-2022.github.io/mesto-react/index.html
