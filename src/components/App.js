@@ -130,6 +130,7 @@ function App() {
     api.deleteCard(card._id)
       .then((res) => {
         setCards((currentState) => currentState.filter((item) => item._id !== card._id));
+        closeAllPopups();
       }).catch((err) => {
         console.log(err);
       }).finally(() => {

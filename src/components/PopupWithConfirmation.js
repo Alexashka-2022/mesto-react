@@ -6,7 +6,6 @@ function PopupWithConfirmation(props) {
     function handleSubmit(evt) {
         evt.preventDefault();
         props.onCardDelete(props.card);
-        props.onClose();
     }
 
     return (
