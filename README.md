@@ -18,3 +18,5 @@
 
 ## Адрес проекта на GitHubPages
 https://alexashka-2022.github.io/mesto-react/index.html
+
+**Статус проекта:** проект завершен
